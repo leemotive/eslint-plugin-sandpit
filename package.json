@@ -1,0 +1,44 @@
+{
+  "name": "eslint-plugin-sandpit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "prepublish": "node ./scripts/index.mjs",
+    "prepare": "husky"
+  },
+  "author": "leemotive <wstation@163.com>",
+  "maintainers": [
+    "leemotive"
+  ],
+  "license": "ISC",
+  "files": [
+    "src"
+  ],
+  "dependencies": {
+    "@babel/eslint-parser": "^7.24.7",
+    "@eslint/compat": "^1.0.3",
+    "@eslint/eslintrc": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^7.12.0",
+    "@typescript-eslint/parser": "^7.12.0",
+    "eslint": "^9.4.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import-flat": "^0.0.1",
+    "eslint-plugin-vue": "^9.26.0",
+    "globals": "^15.4.0",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.3.1",
+    "vue-eslint-parser": "^9.4.3"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20.14.2",
+    "jest": "^29.7.0",
+    "yatter": "^1.5.0"
+  }
+}
